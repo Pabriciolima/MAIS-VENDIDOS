@@ -46,3 +46,7 @@ Por padrão, os itens são classificados pelo maior valor financeiro, somando VA
 ## Corte obrigatório da última compra
 
 Todos os registros, independentemente da curva ABC, devem ter DTA_ULT_COMPRA até 31/12/2025 (inclusive). O corte é aplicado antes da consolidação e do ranking. Registros posteriores ou sem data válida não entram nas quantidades ou valores e são contados separadamente na tela. Datas ISO, brasileiras e datas numéricas do Excel (inclusive sistema 1904) são reconhecidas. O filtro C/D continua disponível sobre os registros elegíveis.
+
+## Valor unitário por filial
+
+O valor unitário médio é VAL_ESTOQUE consolidado da filial dividido pela sua QTD_CONTABIL consolidada, após filtros. Ele aparece entre quantidade e valor total da filial e nos relatórios. Quantidade zero mostra — na tela/PDF e célula vazia no Excel.

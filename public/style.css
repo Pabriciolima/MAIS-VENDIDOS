@@ -5,3 +5,5 @@
 .metrics .highlight strong{font-size:clamp(20px,2vw,30px);overflow-wrap:anywhere}.quantity{font-size:18px}.toolbar label{font-size:13px}@media(max-width:800px){.table-head,.item-summary{grid-template-columns:24px minmax(100px,1fr) 135px 18px}.quantity{font-size:15px}}
 
 .date-rule{font-size:14px;color:#8fcdf1;padding:14px 0;line-height:1.6}.date-rule strong{color:#d8ecfa}
+
+.branch-row{grid-template-columns:minmax(170px,1fr) 75px 80px 155px 170px;gap:16px}.unit-value{font-size:14px;white-space:nowrap;color:#c0dced}.unit-value .quantity-label{font-size:12px}.distribution-title::after{content:' · Unitário médio = valor de estoque ÷ quantidade';text-transform:none;letter-spacing:0;color:#7e93ad}@media(max-width:1100px){.branch-row{grid-template-columns:minmax(170px,1fr) 80px 145px 160px}.branch-row .bar{display:none}}@media(max-width:800px){.branch-row{grid-template-columns:1fr 90px}.unit-value,.branch-value{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}.unit-value .quantity-label{margin-bottom:0!important}.distribution-title::after{display:block;margin-top:8px;line-height:1.6}}
