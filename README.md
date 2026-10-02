@@ -42,3 +42,7 @@ O filtro Classe ABC permite Todas as classes, Somente C, Somente D ou C e D. O f
 ## Ranking financeiro
 
 Por padrão, os itens são classificados pelo maior valor financeiro, somando VAL_ESTOQUE em todas as filiais elegíveis no filtro ABC. A distribuição por filial também ordena por valor. O seletor Ordenar por mantém a opção Maior quantidade. Excel e PDF seguem a ordem escolhida.
+
+## Corte obrigatório da última compra
+
+Todos os registros, independentemente da curva ABC, devem ter DTA_ULT_COMPRA até 31/12/2025 (inclusive). O corte é aplicado antes da consolidação e do ranking. Registros posteriores ou sem data válida não entram nas quantidades ou valores e são contados separadamente na tela. Datas ISO, brasileiras e datas numéricas do Excel (inclusive sistema 1904) são reconhecidas. O filtro C/D continua disponível sobre os registros elegíveis.

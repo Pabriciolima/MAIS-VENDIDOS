@@ -3,3 +3,5 @@
 .stock-value{display:block;font-size:13px;color:#7fc6ed;font-weight:500;margin-top:5px;white-space:nowrap}.quantity-label{display:block!important;margin:0 0 5px!important;font-size:12px;color:#7e93ad;font-weight:400}.branch-row{grid-template-columns:minmax(180px,1fr) 100px 100px 170px}.branch-value{color:#87c9ee;font-size:14px;white-space:nowrap}.toolbar{flex-wrap:wrap}.toolbar input{flex:1;min-width:220px}.metrics .highlight small{overflow-wrap:anywhere}@media(max-width:800px){.branch-row{grid-template-columns:1fr 100px}.branch-value{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}.toolbar label{flex-wrap:wrap}.stock-value{font-size:12px}.branch-value .quantity-label{margin-bottom:0!important}}
 
 .metrics .highlight strong{font-size:clamp(20px,2vw,30px);overflow-wrap:anywhere}.quantity{font-size:18px}.toolbar label{font-size:13px}@media(max-width:800px){.table-head,.item-summary{grid-template-columns:24px minmax(100px,1fr) 135px 18px}.quantity{font-size:15px}}
+
+.date-rule{font-size:14px;color:#8fcdf1;padding:14px 0;line-height:1.6}.date-rule strong{color:#d8ecfa}
