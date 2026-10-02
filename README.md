@@ -34,3 +34,7 @@ O arquivo é lido no navegador, não é enviado a um servidor nem mantido depois
 ## Biblioteca
 
 SheetJS Community Edition 0.20.3 — https://sheetjs.com/ — licença Apache-2.0.
+
+## Classes C e D e valor de estoque
+
+O filtro Classe ABC permite Todas as classes, Somente C, Somente D ou C e D. O filtro é aplicado a cada registro antes da soma: se um mesmo código for A em uma filial e C em outra, Somente C inclui apenas o saldo e o valor das linhas C. O ranking e os indicadores são recalculados. O valor é a soma de VAL_ESTOQUE, sem multiplicar pelo saldo novamente. Tela, Excel e PDF respeitam a seleção e mostram valores por filial e por item.
