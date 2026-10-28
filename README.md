@@ -56,3 +56,7 @@ O valor unitário médio é VAL_ESTOQUE consolidado da filial dividido pela sua 
 Selecione vários estados pelo mapa ou pelos botões de UF; os botões de região adicionam/removem seus estados. Todo o Brasil limpa a seleção. Sem estados marcados, todas as filiais entram. A lista permite restringir a análise a filiais específicas. Os filtros geográficos e ABC são aplicados antes da consolidação, inclusive nos indicadores, Excel e PDF.
 
 A UF é reconhecida pelo nome da cidade, estado ou sigla presente no nome da filial. São reconhecidas as cidades do Grupo Mônaco: Belém, Ananindeua, São Luís, Bacabal, Teresina, Uruçuí, Macapá, Cuiabá, Sinop, Rondonópolis, Água Boa, Porto Velho, Ji-Paraná e Vilhena. Filiais sem localização identificável continuam incluídas em Todo o Brasil e podem ser associadas manualmente a uma UF no painel. Associações duram enquanto a página permanecer aberta. O mapa é local, sem chamadas externas, com limites geográficos simplificados da malha Click That ’Hood.
+
+### Pontos de localização
+
+Pontos vermelhos marcam as cidades das filiais que atendem à seleção geográfica atual. Selecionar uma filial restringe os pontos a ela; uma região ou UF mostra as cidades elegíveis. Mouse ou foco pelo teclado exibe o nome da cidade. As coordenadas representam a sede municipal, não o endereço da unidade. Filiais sem cidade reconhecida permanecem no filtro, com aviso de ausência de coordenadas. Fonte: https://github.com/kelvins/municipios-brasileiros/blob/main/csv/municipios.csv.
