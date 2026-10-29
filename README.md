@@ -60,3 +60,9 @@ A UF é reconhecida pelo nome da cidade, estado ou sigla presente no nome da fil
 ### Pontos de localização
 
 Pontos vermelhos marcam as cidades das filiais que atendem à seleção geográfica atual. Selecionar uma filial restringe os pontos a ela; uma região ou UF mostra as cidades elegíveis. Mouse ou foco pelo teclado exibe o nome da cidade. As coordenadas representam a sede municipal, não o endereço da unidade. Filiais sem cidade reconhecida permanecem no filtro, com aviso de ausência de coordenadas. Fonte: https://github.com/kelvins/municipios-brasileiros/blob/main/csv/municipios.csv.
+
+## Interface e aparência
+
+A interface usa princípios das Apple Human Interface Guidelines adaptados à web: hierarquia de informação, tipografia do sistema, espaços consistentes, controles de 44 px, foco visível e redução de movimento. Não distribui fontes proprietárias. A aparência inicia escura; o controle no cabeçalho alterna claro/escuro e salva a preferência apenas neste navegador. As regras de impressão permanecem separadas da aparência da tela. Arquivos: public/design.css e public/appearance.js.
+
+Referências: https://developer.apple.com/design/human-interface-guidelines/ e https://oviniciusplyai.com/post.html?p=apple-design-prompt.
