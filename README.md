@@ -45,9 +45,9 @@ Por padrão, os itens são classificados pelo maior valor financeiro, somando VA
 
 ## Datas reais de última compra
 
-O filtro lista exclusivamente datas únicas de DTA_ULT_COMPRA existentes no arquivo, em ordem decrescente. Selecione uma ou várias datas por checkbox; a busca localiza datas na lista, sem alterar o ranking por si só. Sem datas marcadas, todas entram. O botão Todas as datas limpa a seleção. Nova importação redefine as datas selecionadas. Registros sem data válida têm uma opção própria quando presentes. Não há limite de ano nem campos de calendário.
+O campo Última compra é um seletor compacto com as datas únicas de DTA_ULT_COMPRA presentes na importação. Escolha uma data para filtrar exatamente esse dia; Todas as datas restaura o conjunto completo. A opção Sem data válida aparece apenas quando há registros sem data reconhecida. Cada importação redefine a seleção. Não há calendário nem limite de ano.
 
-A seleção exata é aplicada antes da consolidação, em conjunto com ABC e localização. A tela e o PDF mostram as datas reais por filial. Excel: Ranking e Por filial exibem as datas que compõem os totais; a aba Por data separa item, filial, classe e data real, com quantidade e valor correspondentes. Última compra é uma célula de data Excel e permite o filtro nativo de datas. Totais consolidados não são repetidos na aba Por data, evitando dupla contagem. Datas ausentes ficam vazias e são sinalizadas por Situação da data.
+A data é aplicada antes da soma em conjunto com os filtros ABC e localização. Excel: Ranking e Por filial mostram Compra mais antiga e Compra mais recente em colunas separadas, como datas reais do Excel. Quando existe só uma data, as duas colunas coincidem. A aba Por data mantém uma linha por item, filial, classe e data, com quantidade e valor correspondentes e autofiltro nativo. Não há listas de datas concatenadas nas células do Excel. Registros sem data ficam com células de data vazias e têm identificação na aba Por data.
 
 ## Valor unitário por filial
 
