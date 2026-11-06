@@ -43,9 +43,11 @@ O filtro Classe ABC permite Todas as classes, Somente C, Somente D ou C e D. O f
 
 Por padrão, os itens são classificados pelo maior valor financeiro, somando VAL_ESTOQUE em todas as filiais elegíveis no filtro ABC. A distribuição por filial também ordena por valor. O seletor Ordenar por mantém a opção Maior quantidade. Excel e PDF seguem a ordem escolhida.
 
-## Corte obrigatório da última compra
+## Filtro livre da última compra
 
-Todos os registros, independentemente da curva ABC, devem ter DTA_ULT_COMPRA até 31/12/2025 (inclusive). O corte é aplicado antes da consolidação e do ranking. Registros posteriores ou sem data válida não entram nas quantidades ou valores e são contados separadamente na tela. Datas ISO, brasileiras e datas numéricas do Excel (inclusive sistema 1904) são reconhecidas. O filtro C/D continua disponível sobre os registros elegíveis.
+Não há corte obrigatório: todos os anos são importados. No ranking, os campos De e Até filtram DTA_ULT_COMPRA com limites inclusivos, individualmente ou em conjunto. Ambos começam vazios; Limpar período restaura todos os registros. A aplicação preserva os saldos por data e classe antes da consolidação, para recalcular quantidade, valor e valor unitário corretamente junto aos filtros ABC e geográficos. Não é necessário reimportar para mudar o período.
+
+Registros sem data válida entram quando os dois campos estão vazios e ficam fora ao aplicar qualquer limite. Intervalos invertidos mostram aviso e impedem exportação. Datas ISO, brasileiras e números do Excel (inclusive sistema 1904) são reconhecidos. Excel e PDF informam o filtro real aplicado, sem a antiga data fixa de 31/12/2025.
 
 ## Valor unitário por filial
 
