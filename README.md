@@ -43,11 +43,11 @@ O filtro Classe ABC permite Todas as classes, Somente C, Somente D ou C e D. O f
 
 Por padrão, os itens são classificados pelo maior valor financeiro, somando VAL_ESTOQUE em todas as filiais elegíveis no filtro ABC. A distribuição por filial também ordena por valor. O seletor Ordenar por mantém a opção Maior quantidade. Excel e PDF seguem a ordem escolhida.
 
-## Filtro livre da última compra
+## Datas reais de última compra
 
-Não há corte obrigatório: todos os anos são importados. No ranking, os campos De e Até filtram DTA_ULT_COMPRA com limites inclusivos, individualmente ou em conjunto. Ambos começam vazios; Limpar período restaura todos os registros. A aplicação preserva os saldos por data e classe antes da consolidação, para recalcular quantidade, valor e valor unitário corretamente junto aos filtros ABC e geográficos. Não é necessário reimportar para mudar o período.
+O filtro lista exclusivamente datas únicas de DTA_ULT_COMPRA existentes no arquivo, em ordem decrescente. Selecione uma ou várias datas por checkbox; a busca localiza datas na lista, sem alterar o ranking por si só. Sem datas marcadas, todas entram. O botão Todas as datas limpa a seleção. Nova importação redefine as datas selecionadas. Registros sem data válida têm uma opção própria quando presentes. Não há limite de ano nem campos de calendário.
 
-Registros sem data válida entram quando os dois campos estão vazios e ficam fora ao aplicar qualquer limite. Intervalos invertidos mostram aviso e impedem exportação. Datas ISO, brasileiras e números do Excel (inclusive sistema 1904) são reconhecidos. Excel e PDF informam o filtro real aplicado, sem a antiga data fixa de 31/12/2025.
+A seleção exata é aplicada antes da consolidação, em conjunto com ABC e localização. A tela e o PDF mostram as datas reais por filial. Excel: Ranking e Por filial exibem as datas que compõem os totais; a aba Por data separa item, filial, classe e data real, com quantidade e valor correspondentes. Última compra é uma célula de data Excel e permite o filtro nativo de datas. Totais consolidados não são repetidos na aba Por data, evitando dupla contagem. Datas ausentes ficam vazias e são sinalizadas por Situação da data.
 
 ## Valor unitário por filial
 
